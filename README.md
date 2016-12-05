@@ -41,7 +41,6 @@ iex> file_sink = LogiStd.Sink.File.new :file, "alert.log"
 iex> {:ok, _} = Logi.Channel.install_sink console_sink, :info
 iex> {:ok, _} = Logi.Channel.install_sink file_sink, :alert
 
-
 # Outputs an info message
 iex> require Logi
 iex> Logi.info "Hello World!"
@@ -49,7 +48,6 @@ iex> Logi.info "Hello World!"
 
 iex> :file.read_file "alert.log"
 {:ok, ""}  # Info messages are ignored by `file_sink`
-
 
 # Outputs an alert message
 iex> Logi.alert "Something Wrong"
