@@ -63,7 +63,7 @@ defmodule LogiStd.Sink.File do
   @type options :: [
     layout: Logi.Layout.layout,
     logger: Logi.logger,
-    rotator: LogiStd.Sink.FileRotator.rotator,
+    rotator: LogiStd.File.Rotator.rotator,
     open_opt: open_options
   ]
 
