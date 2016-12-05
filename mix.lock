@@ -1,5 +1,5 @@
 %{"earmark": {:hex, :earmark, "1.0.3", "89bdbaf2aca8bbb5c97d8b3b55c5dd0cff517ecc78d417e87f1d0982e514557b", [:mix], []},
   "ex_doc": {:hex, :ex_doc, "0.14.5", "c0433c8117e948404d93ca69411dd575ec6be39b47802e81ca8d91017a0cf83c", [:mix], [{:earmark, "~> 1.0", [hex: :earmark, optional: false]}]},
   "logi": {:hex, :logi, "0.5.0", "82bf1e971bc89993a1d6567500ae52d03fca628948ea95cb1d7b8bfcec4ff9a4", [:rebar3], []},
-  "logi_ex": {:hex, :logi_ex, "0.1.0", "fab04904bde99075a1629e370e08eae75c4a3ed1f8e6fe6efd4a8d363cce3f5e", [:mix], [{:logi, "~> 0.5", [hex: :logi, optional: false]}]},
+  "logi_ex": {:hex, :logi_ex, "0.1.1", "8fe5905cc92356c43d6943899e89ad0c57f56eaa559c26d3414b32b133da56b3", [:mix], [{:logi, "~> 0.5", [hex: :logi, optional: false]}]},
   "logi_stdlib": {:hex, :logi_stdlib, "0.1.0", "ef1f554e07132653d96ed359811b69e8c308cd7e3e884b6f07d16c45f972754d", [:rebar3], [{:logi, "0.5.0", [hex: :logi, optional: false]}]}}

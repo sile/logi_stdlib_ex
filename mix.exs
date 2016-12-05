@@ -29,7 +29,7 @@ defmodule LogiStd.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:logi_ex, "~> 0.1"},
+      {:logi_ex, "~> 0.1.1"},
       {:logi_stdlib, "~> 0.1"},
       {:earmark, "~> 1.0", only: :dev},
       {:ex_doc, "~> 0.14", only: :dev}
