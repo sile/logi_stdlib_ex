@@ -5,6 +5,12 @@ defmodule LogiStd.Mixfile do
     [app: :logi_stdlib_ex,
      version: "0.1.0",
      elixir: "~> 1.3",
+     description: "The standard library for logi_ex",
+     package: [
+       maintainers: ["Takeru Ohta"],
+       licenses: ["MIT"],
+       links: %{"GitHub" => "https://github.com/sile/logi_stdlib_ex"}
+     ],
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps(),
